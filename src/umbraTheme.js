@@ -8,7 +8,7 @@ export const umbraTheme = {
    */
   selectionTextColor: 'white',
   /**
-   * The background that flashes for a moment to indicate the cells have been copies
+   * The background that flashes for a moment to indicate the cells have been copied
    * to clipboard.
    */
   selectionCopiedBg: 'rgb(82, 91, 87)',
@@ -24,7 +24,7 @@ export const umbraTheme = {
   /**
    * The padding of header cells.
    */
-  headerCellPadding: '12px 10px',
+  headerCellPadding: '10px',
   /**
    * The BG of header cells. Should be set so that the body cells "slide" underneath.
    */
@@ -42,7 +42,7 @@ export const umbraTheme = {
    * The color of text in the header.
    * Set to null to inherit from your page.
    */
-  headerTextColor: 'rgb(98, 100, 102)',
+  headerTextColor: 'rgb(106 108 111)',
 
   /**
    * The BG of the resize area when hovered.
@@ -65,7 +65,7 @@ export const umbraTheme = {
   /**
    * The BG of a column filter cell.
    */
-  filterCellBg: 'rgb(232 237 242)',
+  filterCellBg: 'rgb(15 15 15)',
   /**
    * The border color fo a column filter cell.
    */
@@ -73,7 +73,7 @@ export const umbraTheme = {
   /**
    * The color of text in the column filter row.
    */
-  filterTextColor: 'rgb(87 96 109)',
+  filterTextColor: 'rgb(131 136 142)',
 
   /**
    * The padding of grid cells. If you use `virtualRows` it's recommended you only set
@@ -84,7 +84,7 @@ export const umbraTheme = {
   /**
    * The BG of all grid cells.
    */
-  bodyCellBg: 'rgb(40 42 42)',
+  bodyCellBg: 'rgb(20 20 20)',
   /**
    * The even (alternating) BG of grid cells.
    * Set to null if you don't want it.
@@ -110,6 +110,19 @@ export const umbraTheme = {
   bodyTextColor: 'rgb(150 150 155)',
 
   /**
+   * Background of the footer area.
+   */
+  footerBg: 'rgb(25, 26, 26)',
+  /**
+   * Text color of the footer area.
+   */
+  footerTextColor: 'rgb(106 108 111)',
+  /**
+   * Footer container padding.
+   */
+  footerPadding: '10px',
+
+  /**
    * The radius of buttons and inputs.
    */
   controlRadius: '6px',
@@ -117,11 +130,15 @@ export const umbraTheme = {
   /**
    * The BG of buttons.
    */
-  buttonBg: 'transparent',
+  buttonBg: 'rgb(36 37 37)',
   /**
    * The active BG of buttons.
    */
-  buttonBgActive: '#ebecf0',
+  buttonBgActive: 'rgb(51 53 53)',
+  /**
+   * The text and icon color in buttons.
+   */
+  buttonTextColor: 'rgb(134 136 137)',
   /**
    * The border for buttons.
    */
@@ -134,9 +151,15 @@ export const umbraTheme = {
   /**
    * BG of inputs.
    */
-  inputBg: '#ebecf0',
+  inputBg: 'rgb(51 53 53)',
   /**
-   * Active BG of inputs.
+   * Text color of inputs.
    */
-  inputBgActive: '#e3e4e8',
+  inputTextColor: 'rgb(130 130 130)',
+
+  /**
+   * The background of the loading overlay that covers the body of the Grid when
+   * `loading={true}` is passed in.
+  */
+  loadingBg: 'rgba(255, 255, 255, 0.3)',
 };

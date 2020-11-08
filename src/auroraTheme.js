@@ -2,16 +2,16 @@ export const auroraTheme = {
   /**
    * The background of the cells in a selection.
    */
-  selectionBg: 'rgb(233, 255, 244)',
+  selectionBg: 'rgb(236 244 255)',
   /**
    * The text color of selected cells.
    */
   selectionTextColor: '',
   /**
-   * The background that flashes for a moment to indicate the cells have been copies
+   * The background that flashes for a moment to indicate the cells have been copied
    * to clipboard.
    */
-  selectionCopiedBg: 'rgb(201, 255, 234)',
+  selectionCopiedBg: 'rgb(218 233 255)',
   /**
    * The color of icons such as those used for dragging and sorting.
    */
@@ -24,7 +24,7 @@ export const auroraTheme = {
   /**
    * The padding of header cells.
    */
-  headerCellPadding: '12px 10px',
+  headerCellPadding: '10px',
   /**
    * The BG of header cells. Should be set so that the body cells "slide" underneath.
    */
@@ -110,6 +110,19 @@ export const auroraTheme = {
   bodyTextColor: 'rgb(90 98 112)',
 
   /**
+   * Background of the footer area.
+   */
+  footerBg: null,
+  /**
+   * Text color of the footer area.
+   */
+  footerTextColor: null,
+  /**
+   * Footer container padding.
+   */
+  footerPadding: '10px 0',
+
+  /**
    * The radius of buttons and inputs.
    */
   controlRadius: '6px',
@@ -123,6 +136,10 @@ export const auroraTheme = {
    */
   buttonBgActive: 'rgb(235 236 240)',
   /**
+   * The text and icon color in buttons.
+   */
+  buttonTextColor: null,
+  /**
    * The border for buttons.
    */
   buttonBorder: '1px solid transparent',
@@ -134,9 +151,15 @@ export const auroraTheme = {
   /**
    * BG of inputs.
    */
-  inputBg: 'rgb(235 236 240)',
+  inputBg: 'rgb(227 228 232)',
   /**
-   * Active BG of inputs.
+   * Text color of inputs.
    */
-  inputBgActive: 'rgb(227 228 232)',
+  inputTextColor: null,
+
+  /**
+   * The background of the loading overlay that covers the body of the Grid when
+   * `loading={true}` is passed in.
+  */
+  loadingBg: 'rgba(255, 255, 255, 0.3)',
 };

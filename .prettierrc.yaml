@@ -3,7 +3,3 @@ trailingComma: 'es5'
 endOfLine: 'lf'
 singleQuote: true
 arrowParens: 'avoid'
-overrides:
-  - files: '*.mdx'
-    options:
-      printWidth: 75
