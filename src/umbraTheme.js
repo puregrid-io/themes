@@ -134,7 +134,7 @@ export const umbraTheme = {
   /**
    * The active BG of buttons.
    */
-  buttonBgActive: 'rgb(51 53 53)',
+  buttonBgActive: 'rgb(59 65 72)',
   /**
    * The text and icon color in buttons.
    */
@@ -153,6 +153,10 @@ export const umbraTheme = {
    */
   inputBg: 'rgb(51 53 53)',
   /**
+   * Border color of inputs.
+   */
+  inputBorderColor: null,
+  /**
    * Text color of inputs.
    */
   inputTextColor: 'rgb(130 130 130)',
@@ -161,5 +165,14 @@ export const umbraTheme = {
    * The background of the loading overlay that covers the body of the Grid when
    * `loading={true}` is passed in.
   */
-  loadingBg: 'rgba(255, 255, 255, 0.3)',
+  loaderOverlayBg: 'rgba(255, 255, 255, 0.3)',
+
+  /**
+   * The background color of the spinner track.
+   */
+  spinnerBgColor: 'rgb(243 243 243)',
+  /**
+   * The foreground color of the spinner puck.
+   */
+  spinnerColor: 'rgb(52 152 219)',
 };

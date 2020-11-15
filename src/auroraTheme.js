@@ -6,7 +6,7 @@ export const auroraTheme = {
   /**
    * The text color of selected cells.
    */
-  selectionTextColor: '',
+  selectionTextColor: null,
   /**
    * The background that flashes for a moment to indicate the cells have been copied
    * to clipboard.
@@ -32,7 +32,7 @@ export const auroraTheme = {
   /**
    * The header part of the grid border including around cells.
    */
-  headerBorderColor: 'rgb(191, 196, 208)',
+  headerBorderColor: 'rgb(191 196 208)',
   /**
    * The background of the directional icon that indicates which side of a column the
    * dragged one will move to when released.
@@ -69,7 +69,7 @@ export const auroraTheme = {
   /**
    * The border color fo a column filter cell.
    */
-  filterBorderColor: 'rgb(191, 196, 208)',
+  filterBorderColor: 'rgb(191 196 208)',
   /**
    * The color of text in the column filter row.
    */
@@ -125,7 +125,7 @@ export const auroraTheme = {
   /**
    * The radius of buttons and inputs.
    */
-  controlRadius: '6px',
+  controlRadius: '4px',
 
   /**
    * The BG of buttons.
@@ -151,7 +151,11 @@ export const auroraTheme = {
   /**
    * BG of inputs.
    */
-  inputBg: 'rgb(227 228 232)',
+  inputBg: 'rgb(255 255 255)',
+  /**
+   * Border color of inputs.
+   */
+  inputBorderColor: 'rgb(191 196 208)',
   /**
    * Text color of inputs.
    */
@@ -161,5 +165,14 @@ export const auroraTheme = {
    * The background of the loading overlay that covers the body of the Grid when
    * `loading={true}` is passed in.
   */
-  loadingBg: 'rgba(255, 255, 255, 0.3)',
+  loaderOverlayBg: 'rgba(255, 255, 255, 0.5)',
+
+  /**
+   * The background color of the spinner track.
+   */
+  spinnerBgColor: 'rgb(243 243 243)',
+  /**
+   * The foreground color of the spinner puck.
+   */
+  spinnerColor: 'rgb(52 152 219)',
 };
