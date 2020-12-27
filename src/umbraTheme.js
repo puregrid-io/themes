@@ -6,10 +6,10 @@ export const umbraTheme = {
   iconColor: 'rgb(131, 143, 159)',
 
   headerCellPadding: '10px',
-  headerCellBg: 'rgb(29 29 32)',
-  headerBorderColor: 'rgb(45 45 47)',
+  headerCellBg: 'rgb(25 25 27)',
+  headerBorderColor: 'rgb(41 41 44)',
   headerReorderIconBg: 'rgba(213, 219, 226, 0.9)',
-  headerTextColor: 'rgb(117 120 126)',
+  headerTextColor: 'rgb(84 87 98)',
 
   colResizeHoverBg: 'rgba(0, 0, 0, 0.08)',
   colResizeIconColor: 'rgba(0, 0, 0, 0.3)',
@@ -21,11 +21,11 @@ export const umbraTheme = {
   filterTextColor: 'rgb(131 136 142)',
 
   bodyCellPadding: '10px',
-  bodyCellBg: 'rgb(23 23 25)',
+  bodyCellBg: 'rgb(21 21 24)',
   bodyCellAltBg: null,
   bodyCellHoverBg: 'rgb(29 31 31)',
-  bodyBorderColor: 'rgb(43 43 45)',
-  cellBorderColor: 'rgb(43 43 45)',
+  bodyBorderColor: 'rgb(35 35 37)',
+  cellBorderColor: 'rgb(35 35 37)',
   bodyTextColor: 'rgb(152 154 167)',
 
   footerBg: 'rgb(25, 26, 26)',
@@ -47,7 +47,7 @@ export const umbraTheme = {
   spinnerBgColor: 'rgb(243 243 243)',
   spinnerColor: 'rgb(52 152 219)',
 
-  scrollTrackColor: 'rgb(28 28 29)',
-  scrollThumbColor: 'rgb(46 47 50)',
-  scrollThumbHoverColor: 'rgb(60 61 65)',
+  scrollTrackColor: 'rgb(20 20 22)',
+  scrollThumbColor: 'rgb(24 25 27)',
+  scrollThumbHoverColor: 'rgb(31 33 35)',
 };
