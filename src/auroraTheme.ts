@@ -47,7 +47,7 @@ export const auroraTheme = {
   spinnerBgColor: 'rgb(243 243 243)',
   spinnerColor: 'rgb(52 152 219)',
 
-  scrollTrackColor: 'rgb(242 242 242)',
+  scrollTrackColor: 'rgb(248 248 248)',
   scrollThumbColor: 'rgb(225 226 230)',
   scrollThumbHoverColor: 'rgb(219 220 224)',
 };
